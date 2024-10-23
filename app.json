@@ -10,7 +10,7 @@
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"#",
+      "value":"✓",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
@@ -21,7 +21,7 @@
     }, "TELECHARGER_AUTO_STATUS":
     {
       "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
     ,
@@ -50,7 +50,7 @@
     "MODE_PUBLIC":
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
 	,
@@ -71,7 +71,7 @@
     "SESSION_ID":
     {
       "description":"veuillez renseigner votre id de session",   
-      "value":"",
+      "value":"Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUtZRkRmendhSWIrSytIcjNuWDl0bWF4c0xGK1JZMVZQU1p5UEIvcnpFdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMFIyaWVUYnFKdHJRbVdyeXlJaU5xTUhIUGNUNHZTMk5SeEQ2bmRLOFpFND0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTUEJHalFCY1ZkRVFYSlBEcjNmQUt1eWJqNmp1YXhib3VXNXNocFBzSVc0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI2OTlNTWt6MXgzUmdsR1lJQzNvcnI5KzE2YlB3c2FmMVRMSHlyZlpOemdZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IktLZVo4b0E3SjBSNkZBQmU5K093MkdSUStCOVpFYW1hcVVGNlJEUEVZVTQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNaVjF6ZEdWUXpPSjFlWEFaSE1RMGwrVUp3ZFNySTlEMWZYTkVhTjNxV1k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT0sxZVVXYkc2U2Q4TjkvZ2N1RStoRDNzeDRJbXRnUVFYMzc3aldTeXRubz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUkVpeUVGek9MVU1Jdm1lVEZNVXVKb0dZWlhXMkF4emQwaG85WkNUQktFOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InBva2VwajFzUjBwR2VncjQrR1pieHJqYStYSm1DU2paeXBGUlBsWkYxekM2MTlzR1hFMXlCWW4wZGFMbkZQRVFmdU5YMEQxWDVPTTQvdVFUSmtIaEJRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTE2LCJhZHZTZWNyZXRLZXkiOiJaV3g2ZmdMVVJJZk0rWXJmY0NidWpqNzVXQnQ2eFBQaWFCUFRzL2ZpOXpnPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoib1Q2SVBMSTNRWHF1dkU0N1l3S21pdyIsInBob25lSWQiOiI0NjdkMjFkMC0xN2Y5LTQ3NjktOTdkNC1jODBlOGRiYWNlMTEiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNGFQZXQwcnExQUNtY0V6UzR6U1Q1S1Bhb28wPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRXd2lucWZIS0xrSDMrQjNJRGliMVZud0VIND0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiIyM0xIOUVUNiIsIm1lIjp7ImlkIjoiMjI1ODQ5MTYzNjI6NkBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJKdXN0IG1lIENoZWlraCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSm43NEs0R0VLeTA1TGdHR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoicnplVkNDMm8yQjk3VG9EQ1R5VVNiUVkybFFwc1VHRDQvcHYyM3hvZzVCbz0iLCJhY2NvdW50U2lnbmF0dXJlIjoicFNETGpKaHVidnB5UTBwMldjdjNvOThVcEZFd09VbDZZQXpBUXQ2TTVpQnl6WXNXazBiTlNta21iSDBBd1JZcFFZRjluSS8zUmRyQ3hFeUZuWGJ5RGc9PSIsImRldmljZVNpZ25hdHVyZSI6Im0rMDJsZ2UwbGJ3SVlVVFIxTlR5aVB6S1RGZ0NVV1NEbFhUZUlxcndSKzMvOGNoYkloVFVJSmZ4MEQ5QzNQZWJvODl0QlE4S25FOEEzblNwK0JTeURBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjI1ODQ5MTYzNjI6NkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJhODNsUWd0cU5nZmUwNkF3azhsRW0wR05wVUtiRkJnK1A2Yjl0OGFJT1FhIn19XSwicGxhdGZvcm0iOiJzbWJhIn0=",
       "required":true
       
     },
@@ -80,14 +80,14 @@
     
     "description": "Votre nom",
     "required": false,
-    "value": "Djalega++"
+    "value": "✰𝐒𝐚𝐝-𝐁𝐨𝐲✰"
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "2250584916362"
   },
     
 
